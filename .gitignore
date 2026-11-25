@@ -221,3 +221,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python sanal ortamı
+.venv/
+venv/
+env/
+
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+
+# Üretilen model dosyaları
+models/*.pkl
+models/*.joblib
+
+# Veri dosyaları
+data/raw/*
+data/processed/*
+
+# Ancak klasör yapısını GitHub'da koru
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
